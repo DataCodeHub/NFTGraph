@@ -1,0 +1,14 @@
+,ogbl-ppa,ogbl-collab,ogbl-citation2,ogbl-wikikg2,ogbl-ddi,ogbl-biokg,ogbl-nft_random_no_edge_attr
+eval metric,hits@100,hits@50,mrr,mrr,hits@20,mrr,mrr
+task type,link prediction,link prediction,link prediction,KG completion,link prediction,KG completion,link prediction
+download_name,ppassoc,collab,citation-v2,wikikg-v2,ddi,biokg,nft_random_no_edge_attr
+version,1,1,1,1,1,1,1
+url,http://snap.stanford.edu/ogb/data/linkproppred/ppassoc.zip,http://snap.stanford.edu/ogb/data/linkproppred/collab.zip,http://snap.stanford.edu/ogb/data/linkproppred/citation-v2.zip,http://snap.stanford.edu/ogb/data/linkproppred/wikikg-v2.zip,http://snap.stanford.edu/ogb/data/linkproppred/ddi.zip,http://snap.stanford.edu/ogb/data/linkproppred/biokg.zip,https://tobeuploaded.zip
+add_inverse_edge,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+has_node_attr,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE
+has_edge_attr,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+split,throughput,time,time,time,target,random,random
+additional node files,None,None,node_year,None,None,None,None
+additional edge files,None,"edge_weight,edge_year",None,edge_reltype,None,edge_reltype,None
+is hetero,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+binary,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
