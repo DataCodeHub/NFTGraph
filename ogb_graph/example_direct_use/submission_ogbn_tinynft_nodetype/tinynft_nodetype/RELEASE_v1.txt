@@ -1,0 +1,3 @@
+# Release note for ogbn-tinynft_nodetype
+
+### v1: 2023-04-01
