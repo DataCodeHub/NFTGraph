@@ -41,7 +41,7 @@ Moreover, `txn_id` represents a unique numerical identifier assigned to each edg
 | edge features | { TxHash, Token, Amount, Value, TxFee, Timestamp }
 
 
-### preview
+### preview:
 
 txn_id|source|target|tokenid|Timestamp|Amount|Value|TxFee|from|to|Token|Txhash|edgelabel
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
