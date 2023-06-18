@@ -34,7 +34,7 @@ GraphMAE: https://github.com/THUDM/GraphMAE
 
 DGI: https://github.com/dmlc/dgl/tree/master/examples/pytorch/dgi
 
-MVGRL: https://github.com/dmlc/dgl/ tree/master/examples/pytorch/mvgrl
+MVGRL: https://github.com/dmlc/dgl/tree/master/examples/pytorch/mvgrl
 
 CCA-SSG: https://github.com/hengruizhang98/
 
