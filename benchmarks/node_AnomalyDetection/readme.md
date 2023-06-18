@@ -13,8 +13,8 @@ to assess the performance of anomaly detection, with higher values indicating be
 |-|-|
 | type of NFTGraph | NFTGraph-Tiny |
 | runs | 5 |
-
-
+epoch | 100 |
+batch_size | 512
 
 
 ### Results:
